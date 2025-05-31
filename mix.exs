@@ -1,7 +1,7 @@
 defmodule LiveJson.MixProject do
   use Mix.Project
 
-  @version "0.4.4"
+  @version "0.4.5"
 
   def project do
     [
@@ -14,7 +14,7 @@ defmodule LiveJson.MixProject do
       aliases: aliases(),
       docs: docs(),
       name: "LiveJSON",
-      homepage_url: "https://github.com/Miserlou/live_json",
+      homepage_url: "https://github.com/benrogmans/live_json",
       description: """
       LiveJSON  - Interact with a client's JavaScript context from LiveView
       """
